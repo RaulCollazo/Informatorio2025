@@ -1,0 +1,6 @@
+COLOR_FONDO = "#f0f4f7"
+COLOR_BOTON = "#007acc"
+COLOR_BOTON_TEXTO = "white"
+COLOR_LISTA_FONDO = "white"
+FUENTE_TITULO = ("Segoe UI", 12, "bold")
+FUENTE_TEXTO = ("Segoe UI", 10)
