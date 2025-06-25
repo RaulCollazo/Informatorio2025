@@ -1,5 +1,9 @@
+import os
 import tkinter as tk
 from PIL import Image, ImageTk
+
+# Obtener el directorio donde se encuentra el script
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Obtener tamaño de pantalla
 root = tk.Tk()
@@ -12,22 +16,22 @@ menu = tk.Tk()
 menu.title("Productorium")
 menu.geometry(f"{ancho}x{alto}")
 
-# Rutas de las imágenes separadas
-tarea0_path = "/home/collazojr/Escritorio/Proyectos/Informatorio/Informatorio-TrabajoPráctico/img/Tarea.png"
-tarea1_path = "/home/collazojr/Escritorio/Proyectos/Informatorio/Informatorio-TrabajoPráctico/img/Tarea_Anim.png"
+# Rutas de las imágenes relativas al directorio del script
+tarea0_path = os.path.join(script_dir, "img", "Tarea.png")
+tarea1_path = os.path.join(script_dir, "img", "Tarea_Anim.png")
 
-pomo0_path = "/home/collazojr/Escritorio/Proyectos/Informatorio/Informatorio-TrabajoPráctico/img/Pomo.png"
-pomo1_path = "/home/collazojr/Escritorio/Proyectos/Informatorio/Informatorio-TrabajoPráctico/img/Pomo_Anim1.png"
-pomo2_path = "/home/collazojr/Escritorio/Proyectos/Informatorio/Informatorio-TrabajoPráctico/img/Pomo_Anim2.png"
-pomo3_path = "/home/collazojr/Escritorio/Proyectos/Informatorio/Informatorio-TrabajoPráctico/img/Pomo_Anim3.png"
-pomo4_path = "/home/collazojr/Escritorio/Proyectos/Informatorio/Informatorio-TrabajoPráctico/img/Pomo_Anim4.png"
-pomo5_path = "/home/collazojr/Escritorio/Proyectos/Informatorio/Informatorio-TrabajoPráctico/img/Pomo_Anim5.png"
+pomo0_path = os.path.join(script_dir, "img", "Pomo.png")
+pomo1_path = os.path.join(script_dir, "img", "Pomo_Anim1.png")
+pomo2_path = os.path.join(script_dir, "img", "Pomo_Anim2.png")
+pomo3_path = os.path.join(script_dir, "img", "Pomo_Anim3.png")
+pomo4_path = os.path.join(script_dir, "img", "Pomo_Anim4.png")
+pomo5_path = os.path.join(script_dir, "img", "Pomo_Anim5.png")
 
-pizarra0_path = "/home/collazojr/Escritorio/Proyectos/Informatorio/Informatorio-TrabajoPráctico/img/Pizarra.png"
-pizarra1_path = "/home/collazojr/Escritorio/Proyectos/Informatorio/Informatorio-TrabajoPráctico/img/Pizarra_Anim.png"
+pizarra0_path = os.path.join(script_dir, "img", "Pizarra.png")
+pizarra1_path = os.path.join(script_dir, "img", "Pizarra_Anim.png")
 
-flashcard0_path = "/home/collazojr/Escritorio/Proyectos/Informatorio/Informatorio-TrabajoPráctico/img/flashcard.png"
-flashcard1_path = "/home/collazojr/Escritorio/Proyectos/Informatorio/Informatorio-TrabajoPráctico/img/flashcard_Anim.png"
+flashcard0_path = os.path.join(script_dir, "img", "flashcard.png")
+flashcard1_path = os.path.join(script_dir, "img", "flashcard_Anim.png")
 
 # Cargar imágenes Tarea
 tarea0_img = ImageTk.PhotoImage(Image.open(tarea0_path))
