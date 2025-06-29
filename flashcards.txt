@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ¿Qué es la capital de Francia? | París
 ¿Cuánto es 2 + 2? | 4
 ¿Quién escribió "Cien años de soledad"? | Gabriel García Márquez
@@ -7,4 +8,15 @@
 ¿Animal nacional de Australia? | Canguro
 ¿Lengua principal de Brasil? | Portugués
 ¿Planeta más cercano al Sol? | Mercurio
+=======
+¿Qué es la capital de Francia? | París
+¿Cuánto es 2 + 2? | 4
+¿Quién escribió "Cien años de soledad"? | Gabriel García Márquez
+¿Color del cielo despejado? | Azul
+¿Año en que llegó el hombre a la Luna? | 1969
+¿Símbolo químico del agua? | H₂O
+¿Animal nacional de Australia? | Canguro
+¿Lengua principal de Brasil? | Portugués
+¿Planeta más cercano al Sol? | Mercurio
+>>>>>>> 0425495 (último commit)
 ¿Autor de Don Quijote? | Miguel de Cervantes
