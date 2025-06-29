@@ -109,6 +109,12 @@ def mostrar_menu_tareas(parent):
         command=lambda: [gestor_ingresos_egresos(parent), close_menu()]
     ).pack(pady=10)
 
+
+    tk.Button(
+        ventana, text="Gestor Ingresos/Egresos", font=("Arial", 14), width=22,
+        command=lambda: [gestor_ingresos_egresos(parent), close_menu()]
+    ).pack(pady=10)
+
     def abrir_calculadora():
         btn_calc.config(state="disabled")
         calc_open = {"ventana": None}

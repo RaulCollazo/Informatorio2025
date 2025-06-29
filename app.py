@@ -1,4 +1,3 @@
-
 import tkinter as tk
 from datetime import date, datetime
 import time
@@ -17,7 +16,7 @@ class App:
         self.root.configure(bg=COLOR_FONDO)
 
         self.registro = RegistroPersonal(self)
-        self.menu = MenuPrincipal(self)
+        self.menu = MenuPrincipal(self.root)  # <-- aquí el cambio: root, no self
         self.menu.crear_menu()
 
         # Sección de reloj y calendario integrados
